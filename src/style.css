@@ -10,7 +10,7 @@ body {
     font-size: 1.6rem;
     margin: 0;
     background-color: #f8f8f8;
-    color: #1b1b19;
+    color: #21211d;
 }
 
 small {
@@ -26,4 +26,52 @@ small {
 .title {
     font-size: 4rem;
     text-align: center;
+}
+
+.form {
+    display: grid;
+}
+
+.label {
+    font-size: 1.3rem;
+    margin-bottom: .2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.input {
+    font-size: 1.5rem;
+    margin-bottom: .5em;
+}
+
+.btn {
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: #21211d;
+    color: #f8f8f8;
+    transition: background-color .3s;
+}
+
+.btn:hover {
+    background-color: #0d0d0d;
+}
+
+.input,
+.btn {
+    padding: .6em 1.5em;
+    border: 1px solid #b6b6ac;
+    border-radius: 3em;
+}
+
+@media(min-width: 768px) {
+    .form {
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        grid-gap: .5em;
+    }
+
+    .input,
+    .label {
+        margin-bottom: 0;
+    }
 }
