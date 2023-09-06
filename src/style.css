@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #1b1b19;
+}
+
+small {
+    font-size: 1.3rem;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+}

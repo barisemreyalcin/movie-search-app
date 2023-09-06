@@ -4,7 +4,9 @@ import ReactDOM from "react-dom";
 class Main extends Component {
     render() {
         return (
-            <h1>Hey</h1>
+            <div className="container">
+                <h1 className="title">Movie Search App</h1>
+            </div>
         )
     }
 }
