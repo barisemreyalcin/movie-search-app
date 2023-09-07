@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -7,6 +9,7 @@ html {
 }
 
 body {
+    font-family: 'PT Sans', sans-serif;
     font-size: 1.6rem;
     margin: 0;
     background-color: #f8f8f8;
@@ -44,6 +47,10 @@ small {
     margin-bottom: .5em;
 }
 
+input::placeholder {
+    opacity: .7;
+}
+
 .btn {
     font-size: 1.4rem;
     cursor: pointer;
@@ -73,6 +80,16 @@ small {
     .input,
     .label {
         margin-bottom: 0;
+    }
+
+    .card{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 2em;
+    }
+
+    .card--img {
+        align-self: center;
     }
 }
 
